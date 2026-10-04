@@ -15,12 +15,12 @@ Meetings produce spoken commitments ("I'll send the report by Friday," "Can you 
 5. Each item gets a **confidence score** (0–100) based on whether an owner and deadline were both found, and is flagged **CONFIDENT** or **NEEDS REVIEW** accordingly.
 
 ## Project structure 🪜
-├── sample_transcript.txt # Example meeting transcript used for testing
-├── extract_actions.py # Early exploratory version, kept to show development process
-├── extractor.py # Final extraction logic (transformer-based NER + validation rules)
-├── annotated_transcripts.py # Hand-annotated test transcripts with known correct answers
-├── evaluate.py # Evaluation script comparing predictions against the annotated answers
-├── app.py # Streamlit web app (upload or paste a transcript, see results)
+- ├── sample_transcript.txt # Example meeting transcript used for testing
+- ├── extract_actions.py # Early exploratory version, kept to show development process
+- ├── extractor.py # Final extraction logic (transformer-based NER + validation rules)
+- ├── annotated_transcripts.py # Hand-annotated test transcripts with known correct answers
+- ├── evaluate.py # Evaluation script comparing predictions against the annotated answers
+- ├── app.py # Streamlit web app (upload or paste a transcript, see results)
 
 ## How to run it 🏃🏼‍♀️
 
